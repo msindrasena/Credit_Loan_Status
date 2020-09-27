@@ -39,6 +39,10 @@ was around 64%. The F1 Score was very low for high-risk and high for low-risk (.
 believe again that the model is good at predicting low-risk but not as good at predicting
 high-risk applicants. 
 
+## Balance Random Forest Classifier
+We used the Balance Random Forest Classifier which had a balanced accuracy score of 78%.
+The precision rate was .03 and 1.00 for high and low risk applicants respectively. The recall rate was .70 and .87. 
+
 ## Recommendations
 
 We also tested the Easy Ensemble AdaBoost Classifier, which turned out with the highest precision 
